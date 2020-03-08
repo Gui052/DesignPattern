@@ -1,4 +1,3 @@
-package cn.itailan.iterator;
 /** Iterator模式
  * <p>首先有一个迭代器Iterator接口,迭代器有next和hasNext方法</p>
  * <p>然后有一个集合Aggregate接口,集合中有返回一个迭代器Iterator的方法</p>
@@ -9,3 +8,4 @@ package cn.itailan.iterator;
  * @author Mr.Lan
  * @since 2020-03-08 11:39
  */
+package cn.itailan.iterator;
