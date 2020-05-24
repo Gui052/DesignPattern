@@ -10,7 +10,7 @@ import cn.itailan.abstractfactory.factory.Tray;
  */
 public class Main {
     public static void main(String[] args) {
-        Factory factory = Factory.getFactoty(args[0]);
+        Factory factory = Factory.getFactory(args[0]);
 
         //生产零件
         Link people = factory.createLink("人民日报", "http://www.people.com");

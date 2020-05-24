@@ -4,7 +4,7 @@ package cn.itailan.abstractfactory.factory;
  * 抽象工厂
  */
 public abstract class Factory {
-    public static Factory getFactoty(String className) {
+    public static Factory getFactory(String className) {
         Factory factory = null;
         try {
             factory = (Factory) Class.forName(className).newInstance();
