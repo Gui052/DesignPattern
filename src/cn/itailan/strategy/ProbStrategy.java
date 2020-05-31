@@ -3,7 +3,7 @@ package cn.itailan.strategy;
 import java.util.Random;
 
 /**
- * 输了的策略
+ * 需要动点脑子的策略
  * 这里就随便实现一下
  *
  * @author Mr.Lan

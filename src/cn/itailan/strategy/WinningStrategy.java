@@ -3,7 +3,7 @@ package cn.itailan.strategy;
 import java.util.Random;
 
 /**
- * 赢了的策略
+ * 不用动脑子的策略
  *
  * @author Mr.Lan
  * @version 1.0.0
