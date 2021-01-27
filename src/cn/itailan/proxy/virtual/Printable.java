@@ -1,4 +1,4 @@
-package cn.itailan.proxy;
+package cn.itailan.proxy.virtual;
 
 /**
  * 确保代理和被代理对象一致性

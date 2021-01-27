@@ -1,4 +1,4 @@
-package cn.itailan.proxy;
+package cn.itailan.proxy.virtual;
 
 /**
  * 代理

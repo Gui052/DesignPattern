@@ -12,4 +12,4 @@
  * @version 1.0.0
  * @since 2020/6/16 11:18 下午
  */
-package cn.itailan.proxy;
+package cn.itailan.proxy.virtual;
