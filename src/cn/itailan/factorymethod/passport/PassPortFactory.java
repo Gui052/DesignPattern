@@ -1,4 +1,4 @@
-package cn.itailan.factorymethod.idcard;
+package cn.itailan.factorymethod.passport;
 
 import cn.itailan.factorymethod.framework.Factory;
 import cn.itailan.factorymethod.framework.Product;
@@ -6,20 +6,16 @@ import cn.itailan.factorymethod.framework.Product;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IdCardFactory extends Factory {
+public class PassPortFactory extends Factory {
     private final List<String> owners = new ArrayList<>(10);
 
     @Override
     protected Product createProduct(String owner) {
-        return new IdCard(owner);
+        return new PassPort(owner);
     }
 
-    /**
-     * 相当于注册产品,可以放到一个容器中,方便使用
-     * @param product
-     */
     @Override
     protected void registerProduct(Product product) {
-        owners.add(((IdCard) product).getOwner());
+        owners.add(((PassPort) product).getOwner());
     }
 }
